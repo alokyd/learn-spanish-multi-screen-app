@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E35408</color>
+    <color name="colorPrimaryDark">#B11A05</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colormust">#4CAF50</color>
+    <color name="colormustone">#FFEB3B</color>
+    <color name="ten">#FFF7DA</color>
+    <color name="number">#FD8E09</color>
+    <color name="color">#8800A0</color>
+    <color name="phrase">#16Afca</color>
+    <color name="FAMILY">#0E970E</color>
+
+</resources>

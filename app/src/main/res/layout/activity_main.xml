@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvnumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/number"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Numbers"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvcolors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#9707B6"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Colors"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/FAMILY"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Family Members"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvphrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/phrase"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Phrse"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
